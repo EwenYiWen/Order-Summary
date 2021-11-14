@@ -1,0 +1,206 @@
+/*mobile 375px */
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+:root {
+  --Pale-blue: #e0e8ff;
+  --Bright-blue: #3829e0;
+  --Very-pale-blue: #f5f7ff;
+  --Desaturated-blue: #7280a7;
+  --Dark-blue: #1f2f56;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  color: var(--Desaturated-blue);
+  width: 100%;
+  height: auto;
+  background-color: var(--Pale-blue);
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 375px) {
+  body {
+    font-size: 14px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/*the whole box*/
+.order_summary_box {
+  padding: 100px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 375px) {
+  .order_summary_box {
+    margin: 0px 25px 0px 25px;
+  }
+}
+
+/*order-content*/
+.content_wrapper {
+  width: 420px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+@media (max-width: 375px) {
+  .contain_wrapper {
+    padding: 0px 25px 0px 25px;
+  }
+}
+
+.cover_picture {
+  width: 100%;
+  height: auto;
+}
+
+.order_details {
+  padding: 45px 40px 45px 40px;
+}
+
+.order_desc {
+  text-align: center;
+}
+
+.order_desc h1 {
+  color: var(--Dark-blue);
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 375px) {
+  .order_details {
+    padding: 25px;
+  }
+  .order_desc h1 {
+    font-size: 23px;
+  }
+}
+
+/*payment section*/
+.payment_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--Very-pale-blue);
+  padding: 20px 25px 20px 25px;
+  margin: 20px 0px 20px 0px;
+  width: auto;
+  border-radius: 10px;
+}
+
+.payment_details {
+  display: flex;
+}
+
+.music_icon {
+  width: 100%;
+  height: auto;
+}
+
+.payment_plan {
+  padding-left: 15px;
+}
+
+.payment_plan h2 {
+  font-size: 15px;
+  margin-bottom: 5px;
+  font-weight: 900;
+  color: var(--Dark-blue);
+}
+
+.change_link {
+  color: var(--Bright-blue);
+  font-weight: 900;
+}
+
+.change_link:hover {
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+@media (max-width: 375px) {
+  .payment_info {
+    padding: 15px 10px 15px 10px;
+  }
+  .music_icon {
+    width: 30%;
+    height: 30%;
+  }
+  .payment_plan h2 {
+    font-size: 13px;
+  }
+
+  .change_link {
+    font-size: 13px;
+  }
+}
+
+/*last section*/
+.payment_action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment_button {
+  display: block;
+  margin: auto;
+  width: 100%;
+  padding: 15px 0px 15px 0px;
+  margin: 30px 0px 30px 0px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 20px 8px var(--Pale-blue);
+  font-size: 14px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  background-color: var(--Bright-blue);
+  color: var(--Very-pale-blue);
+  cursor: pointer;
+}
+
+.payment_button:hover {
+  opacity: 0.5;
+}
+
+.cancel_order {
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 14px;
+  color: var(--Desaturated-blue);
+}
+
+.cancel_order:hover {
+  color: var(--Dark-blue);
+}
+
+@media (max-width: 375px) {
+  .payment_button {
+    margin: 0px 0px 20px 0px;
+  }
+}
+
+.attribution {
+  margin-top: 20px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
