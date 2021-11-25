@@ -27,17 +27,17 @@ in this challenge, users will be able to hover to various links and button and b
 
 ### Screenshot
 
-![](./screenshot1.PNG)
+![](./Screenshot/screenshot1.PNG)
 
 I think it is very useful to set up your overall default style in your body tag so that it saved you alot of time and not having you to write down every CSS text in every class.
 
-![](./screenshot2.PNG)
+![](./Screenshot/screenshot2.PNG)
 
 In this screenshot, I wrapped all my order-summary content a div within a div so that I can easily position the box into the middle of the page and also applying the content wrapper for the whole order-summary content.
 
 I also include another screenshot to show you how I managed to easily centered the box with the usage of CSS flexbox and justify content and align item.
 
-![](./screenshot3.PNG)
+![](./Screenshot/screenshot3.PNG)
 
 ### Links
 
